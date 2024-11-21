@@ -49,39 +49,39 @@ function App() {
     <div className="main" id="drum-machine">
       <div className="pad-container">
         <div className="drum-pad" id="Q" onClick={HandleClips}>
-          <audio id="Q" className="clip" src="/assets/Heater-1.mp3" title="Heater 1"></audio>
+          <audio id="Q" className="clip" src="/Heater-1.mp3" title="Heater 1"></audio>
           Q
         </div>
         <div className="drum-pad" id="W" onClick={HandleClips}>
-          <audio id="W" className="clip" src="/assets/Heater-2.mp3" title="Heater 2"></audio>
+          <audio id="W" className="clip" src="/Heater-2.mp3" title="Heater 2"></audio>
           W
         </div>
         <div className="drum-pad" id="E" onClick={HandleClips}>
-          <audio id="E" className="clip" src="/assets/Heater-3.mp3" title="Heater 3"></audio>
+          <audio id="E" className="clip" src="/Heater-3.mp3" title="Heater 3"></audio>
           E
         </div>
         <div className="drum-pad" id="A" onClick={HandleClips}>
-          <audio id="A" className="clip" src="/assets/Heater-4_1.mp3" title="Heater 4"></audio>
+          <audio id="A" className="clip" src="/Heater-4_1.mp3" title="Heater 4"></audio>
           A
         </div>
         <div className="drum-pad" id="S" onClick={HandleClips}>
-          <audio id="S" className="clip" src="/assets/Heater-6.mp3" title="Heater 6"></audio>
+          <audio id="S" className="clip" src="/Heater-6.mp3" title="Heater 6"></audio>
           S
         </div>
         <div className="drum-pad" id="D" onClick={HandleClips}>
-          <audio id="D" className="clip" src="/assets/Cev_H2.mp3" title="Closed HH"></audio>
+          <audio id="D" className="clip" src="/Cev_H2.mp3" title="Closed HH"></audio>
           D
         </div>
         <div className="drum-pad" id="Z" onClick={HandleClips}>
-          <audio id="Z" className="clip" src="/assets/Kick_n_Hat.mp3" title="kick n'hat"></audio>
+          <audio id="Z" className="clip" src="/Kick_n_Hat.mp3" title="kick n'hat"></audio>
           Z
         </div>
         <div className="drum-pad" id="X" onClick={HandleClips}>
-          <audio id="X" className="clip" src="/assets/RP4_KICK_1.mp3" title="kick"></audio>
+          <audio id="X" className="clip" src="/RP4_KICK_1.mp3" title="kick"></audio>
           X
         </div>
         <div className="drum-pad" id="C" onClick={HandleClips}>
-          <audio id="C" className="clip" src="/assets/Dsc_Oh.mp3" title="Open HH"></audio>
+          <audio id="C" className="clip" src="/Dsc_Oh.mp3" title="Open HH"></audio>
           C
         </div>
       </div>
